@@ -1,3 +1,3 @@
-import { add } from "@cashew/common";
+import { add } from "common";
 
 console.log(add(1, 2));
