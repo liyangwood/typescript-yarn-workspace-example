@@ -67,7 +67,6 @@ typings/
 
 # Yarn Integrity file
 .yarn-integrity
-.yarn
 
 # dotenv environment variables file
 .env
@@ -103,6 +102,16 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Yarn for not using zero-installs https://yarnpkg.com/getting-started/qa#which-files-should-be-gitignored
+.yarn/*
+!.yarn/patches
+#!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+
 
 .vscode
 .DS_Store
