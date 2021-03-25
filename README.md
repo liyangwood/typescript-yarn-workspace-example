@@ -1,6 +1,7 @@
 ## typescript-yarn-workspace-example
 
 ## Yarn v1 to v2
+not work, TODO
 ```
 yarn set version berry
 yarn set version latest
@@ -31,7 +32,6 @@ yarn workspaces foreach add lodash
 // add to special module
 yarn workspace @me/test_package add common
 ```
-
 
 
 ### Show workspaces info
